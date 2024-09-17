@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+.body {
+  background-color: rgb(23, 25, 40);
+}
+
 .container {
   padding: 2rem;
   height: 100vh;
@@ -16,6 +20,7 @@
   text-transform: capitalize;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 0.159rem;
+  color: black;
 }
 .container .container-change-theme {
   display: flex;
@@ -53,6 +58,27 @@
   left: 4px;
   border: none;
   background-color: #fff;
+  transition: 500ms ease-out;
+  -webkit-transition: 500ms ease-out;
+  -moz-transition: 500ms ease-out;
+  -ms-transition: 500ms ease-out;
+  -o-transition: 500ms ease-out;
+}
+.container .change-theme .button_2 {
+  left: 72px;
+}
+.container .change-theme_2 {
+  background-color: #2196f3;
+}
+.container .h3_2 {
+  color: white;
+}
+.container .amir-rafigh-2 {
+  margin-top: 5rem;
+  color: rgb(255, 0, 0);
+}
+.container .amir-rafigh-2::after {
+  content: "amir-rafigh";
 }
 
 /*# sourceMappingURL=style.css.map */
