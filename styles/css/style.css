@@ -63,6 +63,7 @@
   -moz-transition: 500ms ease-out;
   -ms-transition: 500ms ease-out;
   -o-transition: 500ms ease-out;
+  cursor: pointer;
 }
 .container .change-theme .button_2 {
   left: 72px;
